@@ -9,6 +9,10 @@
     "data": [
         "views/crm_lead_view.xml"
     ],
+    "images": [
+        'static/images/banner.png',
+        'static/description/thumbnail.png',
+    ]
     "installable": True,
     "application": False
 }
