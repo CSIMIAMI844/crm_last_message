@@ -12,7 +12,7 @@
     "images": [
         'static/images/banner.png',
         'static/description/thumbnail.png',
-    ]
+    ],
     "installable": True,
     "application": False
 }
