@@ -1,0 +1,27 @@
+<odoo>
+    <data>
+        <record id="view_crm_lead_form_last_message" model="ir.ui.view">
+            <field name="name">crm.lead.form.last.message</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_lead_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet" position="inside">
+                    <group>
+                        <field name="last_message_body" widget="html"/>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+
+	<record id="view_crm_lead_tree_last_message" model="ir.ui.view">
+   	    <field name="name">crm.lead.tree.last.message</field>
+            <field name="model">crm.lead</field>
+    	    <field name="inherit_id" ref="crm.crm_case_tree_view_oppor"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='city']" position="after">
+                    <field name="last_message_body" widget="html"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
