@@ -1,4 +1,5 @@
 # CRM Last Message
+![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)
 
 This module adds a computed field to CRM Opportunities (`crm.lead`) that shows the **last message body**. It displays this field:
 
