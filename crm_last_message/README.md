@@ -16,8 +16,8 @@ This module adds a computed field to CRM Opportunities (`crm.lead`) that shows t
 
 *Form view:*
 
-![Form View](static/description/screenshot.png)
+![Form View](static/description/screenshot2.png)
 
 *List view:*
 
-![List View](static/description/screenshot2.png)
+![List View](static/description/screenshot.png)

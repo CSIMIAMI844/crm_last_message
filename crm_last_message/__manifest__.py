@@ -1,14 +1,14 @@
 {
     "name": "CRM Last Message",
-    "version": "1.0",
+    "summary": "Displays the last message body on CRM leads (form and list view).",
+    "version": "1.0.0",
     "category": "CRM",
-    "summary": "Show last message body in CRM leads/opportunities",
     "author": "FToro",
-    "depends": ["crm", "mail"],
+    "license": "LGPL-3",
+    "depends": ["crm"],
     "data": [
         "views/crm_lead_view.xml"
     ],
     "installable": True,
-    "application": False,
-    "auto_install": False
+    "application": False
 }
