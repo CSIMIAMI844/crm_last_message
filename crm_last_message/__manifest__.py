@@ -19,12 +19,13 @@ Show the most recent email message on the CRM opportunity form and list views.
         'views/crm_lead_view.xml',
     ],
     'images': [
+	'static/images/banner.png',
         'static/description/icon.png',
         'static/description/screenshot.png',
         'static/description/screenshot2.png',
         'static/description/thumbnail.png',
         'static/description/banner2.png',
-	'static/images/banner.png',
+
     ],
     'installable': True,
     'application': False,
