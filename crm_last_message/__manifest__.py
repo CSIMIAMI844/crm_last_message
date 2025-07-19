@@ -1,18 +1,32 @@
 {
-    "name": "CRM Last Message",
-    "summary": "Displays the last message body on CRM leads (form and list view).",
-    "version": "1.0.0",
-    "category": "CRM",
-    "author": "FToro",
-    "license": "LGPL-3",
-    "depends": ["crm"],
-    "data": [
-        "views/crm_lead_view.xml"
+    'name': 'CRM Last Message',
+    'version': '1.0.0',
+    'summary': 'Display the latest email message on CRM opportunities',
+    'description': """
+
+CRM Last Message
+================
+Show the most recent email message on the CRM opportunity form and list views.
+""",
+    'category': 'CRM',
+    'author': 'Francisco Toro',
+    'email': 'ftc.odoo.test@gmail.com',
+    'license': 'LGPL-3',
+    'price': 19.0,
+    'currency': 'USD',
+    'depends': ['crm'],
+    'data': [
+        'views/crm_lead_view.xml',
     ],
-    "images": [
-        'static/images/banner.png',
+    'images': [
+        'static/description/icon.png',
+        'static/description/screenshot.png',
+        'static/description/screenshot2.png',
         'static/description/thumbnail.png',
+        'static/description/banner2.png',
+	'static/images/banner.png',
     ],
-    "installable": True,
-    "application": False
+    'installable': True,
+    'application': False,
+    'auto_install': False,
 }

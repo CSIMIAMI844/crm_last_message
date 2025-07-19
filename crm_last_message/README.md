@@ -1,24 +1,78 @@
 # CRM Last Message
 ![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)
 
-This module adds a computed field to CRM Opportunities (`crm.lead`) that shows the **last message body**. It displays this field:
+# 📨 CRM Last Message — See Last Email in CRM Opportunities
 
-- On the **form view** with HTML formatting
-- On the **tree/list view** as plain text (shortened)
+![Banner](static/description/banner2.png)
 
-## Features
+Display the **latest message body** from your email thread directly on:
+- ✅ CRM Opportunity Form
+- ✅ CRM List (Kanban / Tree) View
 
-✅ Show latest message in the chatter  
-✅ Visible in list view (truncated plain text)  
-✅ Fully installable on Odoo 17 and 18  
-✅ Lightweight and non-intrusive
+A simple but powerful module to help your sales team **save time** and **stay informed** at a glance.
 
-## Screenshots
+---
 
-*Form view:*
+## 🌟 Features
 
-![Form View](static/description/screenshot2.png)
+- 📩 Shows the last incoming or outgoing message in HTML format
+- 🧠 HTML converted to plain text in list view
+- 🖥️ Form and list view enhancements
+- 🐾 Compatible with Odoo 18.2
+- 🔒 Clean, lightweight, no external dependencies
 
-*List view:*
+---
 
-![List View](static/description/screenshot.png)
+## 🛒 Purchase & Installation
+
+This module is available **exclusively on the Odoo App Store**:
+
+➡️ [Buy on Odoo Apps](https://apps.odoo.com/apps/modules/18.0/crm_last_message/)  
+💵 **Price:** $19 (one-time)
+
+After purchase:
+1. Download the ZIP from your Odoo portal.
+2. Install via **Apps > Import Module**.
+3. Activate via the Apps dashboard.
+
+🧑‍💻 Need help? Contact support via your Odoo.com account.
+
+---
+
+## 📸 Screenshots
+
+![Screenshot 1](static/description/screenshot.png)
+![Screenshot 2](static/description/screenshot2.png)
+
+---
+
+## ⚖️ License
+
+This module is licensed under the **LGPL-3** license.  
+Commercial use is allowed under its terms.
+
+> ❗This module is available as **paid software**. Unauthorized redistribution, resale, or uploading to third-party stores is a **violation of license terms** and may lead to legal consequences.
+
+By purchasing the module via the Odoo App Store, you:
+- Support ongoing development ❤️
+- Encourage open source sustainability 🚀
+
+---
+
+## 🛠 Technical Details
+
+| Field              | Value            |
+|--------------------|------------------|
+| Odoo Version       | 18.0             |
+| Module Category    | CRM              |
+| Dependencies       | crm              |
+| License            | LGPL-3           |
+| Maintainer         | Francisco Toro   |
+
+---
+
+## 👏 Acknowledgements
+
+Made with ❤️ by Francisco Toro  
+Need customizations? Contact us @ftc.odoo.test@gmail.com!
+
