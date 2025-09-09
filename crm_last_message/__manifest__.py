@@ -1,6 +1,6 @@
 {
     'name': 'CRM Last Message',
-    'version': '1.0.0',
+    'version': '18.0.1.0',
     'summary': 'Display the latest email message on CRM opportunities',
     'description': """
 
